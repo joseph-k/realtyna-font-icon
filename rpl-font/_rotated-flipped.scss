@@ -1,0 +1,22 @@
+// Rotated & Flipped Icons
+// -------------------------
+
+.#{$rpl-css-prefix}-rotate-90 {
+    @include rpl-icon-rotate(90deg, 1);
+}
+
+.#{$rpl-css-prefix}-rotate-180 {
+    @include rpl-icon-rotate(180deg, 2);
+}
+
+.#{$rpl-css-prefix}-rotate-270 {
+    @include rpl-icon-rotate(270deg, 3);
+}
+
+.#{$rpl-css-prefix}-flip-horizontal {
+    @include rpl-icon-flip(-1, 1, 0);
+}
+
+.#{$rpl-css-prefix}-flip-vertical {
+    @include rpl-icon-flip(1, -1, 2);
+}

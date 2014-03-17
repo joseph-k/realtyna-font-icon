@@ -1,0 +1,13 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+    font-family: 'rplFont';
+    src: url('#{$rpl-font-path}/rpl.eot?v=#{$rpl-version}');
+    src: url('#{$rpl-font-path}/rpl.eot?#iefix&v=#{$rpl-version}') format('embedded-opentype'),
+        url('#{$rpl-font-path}/rpl.woff?v=#{$rpl-version}') format('woff'),
+        url('#{$rpl-font-path}/rpl.ttf?v=#{$rpl-version}') format('truetype'),
+        url('#{$rpl-font-path}/rpl.svg?v=#{$rpl-version}#rplregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

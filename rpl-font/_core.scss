@@ -1,0 +1,14 @@
+// Base Class Definition
+// -------------------------
+
+[class^="#{$rpl-css-prefix}"], [class*=" #{$rpl-css-prefix}"] {
+    display: inline-block;
+    speak: none;
+    font-family: rplFont;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

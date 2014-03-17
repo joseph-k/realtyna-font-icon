@@ -1,0 +1,22 @@
+// List Icons
+// -------------------------
+
+.#{$rpl-css-prefix}-ul {
+    padding-left: 0;
+    margin-left: $rpl-li-width;
+    list-style-type: none;
+    > li {
+        position: relative;
+    }
+}
+
+.#{$rpl-css-prefix}-li {
+    position: absolute;
+    left: -$rpl-li-width;
+    width: $rpl-li-width;
+    top: (2em / 14);
+    text-align: center;
+    &.#{$rpl-css-prefix}-lg {
+        left: -$rpl-li-width + (4em / 14);
+    }
+}
